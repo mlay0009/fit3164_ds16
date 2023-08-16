@@ -54,7 +54,7 @@
 
 .topic h1 {
     font-size: 32px;
-    color: #cfa793;
+    color: #fff;
 }
 
 .topic h2 {
@@ -139,6 +139,13 @@
     font-weight: 600px;
     transition: 0.5s;
     border-bottom:1.5px solid #cfa793; 
+    padding-bottom:5px;
+}
+
+.aboutus-section h2{
+    font-size: 24px;
+    color: #cfa793;
+    font-weight: 600px;
     padding-bottom:5px;
 }
 
