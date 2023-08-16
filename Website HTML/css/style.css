@@ -90,7 +90,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 /* Style navigation menu links */
@@ -143,7 +143,7 @@
 }
 
 .aboutus-section p{
-    font-size: 14px;
+    font-size: 18px;
     color: #443636;
     text-align: justify;
     text-justify: inter-word;
@@ -173,7 +173,7 @@
     text-align: left;
     background-color: #443636;
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 500px;
 }
 
@@ -182,7 +182,7 @@
     color: #cfa793;
     text-decoration: none;
     display: block;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .contact-us i {
@@ -197,7 +197,7 @@ footer-policy {
     background-color: #443636;
     padding: 10px;
     color: #cfa793;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* Style the left and right sections */
