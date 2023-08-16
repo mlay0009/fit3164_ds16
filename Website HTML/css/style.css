@@ -54,7 +54,7 @@
 
 .topic h1 {
     font-size: 32px;
-    color: #cfa793;
+    color:  #cfa793;
 }
 
 .topic h2 {
@@ -141,6 +141,7 @@
     border-bottom:1.5px solid #cfa793; 
     padding-bottom:5px;
 }
+
 
 .home-section p{
     font-size: 18px;
