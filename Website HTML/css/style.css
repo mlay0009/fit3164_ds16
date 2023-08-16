@@ -9,7 +9,7 @@
 /* Style the backgoround home page */
 .hero{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-image:  linear-gradient(rgba(12,3,51,0.3), rgba(12,3,41,0.3));
     position: relative;
     padding:  0;
@@ -41,6 +41,25 @@
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
+}
+
+/* Style the topic  */
+.topic {
+    position: absolute;
+    bottom:15px;
+    left: 40px; 
+    background-color: transparent;
+    max-width: 90%;
+}
+
+.topic h1 {
+    font-size: 32px;
+    color: #cfa793;
+}
+
+.topic h2 {
+    font-size: 20px;
+    color: #fff;
 }
 
 /* Style the background video  */
@@ -107,26 +126,95 @@
     color: white;
   }
 
-  /* Style "About Us" section */
+/* Style "About Us" section */
 .aboutus-section {
-    background-color: #cfa793; /* Set the desired background color */
-    padding: 40px 0;
+    background-color: #fff; /* Set the desired background color */
+    padding: 40px ;
+    width: 90%;
 }
 
 .aboutus-section h1{
-    font-size: 48px;
-    padding-left: 20px;
-    color: #fff;
+    font-size: 40px;
+    color: #cfa793;
     font-weight: 600px;
     transition: 0.5s;
+    border-bottom:1.5px solid #cfa793; 
+    padding-bottom:5px;
 }
 
 .aboutus-section p{
     font-size: 14px;
-    padding-left: 20px;
     color: #443636;
     text-align: justify;
     text-justify: inter-word;
-    max-width: 90%;
+}
 
+/* Style "Read More" Link */
+.read-more-link {
+    color: #cfa793;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; 
+}
+
+.read-more-link i {
+    margin-left: 5px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #443636;
+    color: #cfa793; 
+    padding: 40px;
+}
+
+/* Style the footer description */
+.footer h1 {
+    text-align: left;
+    background-color: #443636;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.contact-us {
+    text-align: right;
+    color: #cfa793;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+
+.contact-us i {
+    margin-left: 5px; 
+}
+
+.contact-us:hover {
+    color: #fff; /* Change the color on hover */
+}
+
+footer-policy {
+    background-color: #443636;
+    padding: 10px;
+    color: #cfa793;
+    font-size: 14px;
+}
+
+/* Style the left and right sections */
+footer-policy .left {
+    flex-grow: 1;
+}
+
+footer-policy .right {
+    text-align: right;
+}
+
+footer-policy a {
+    color: #cfa793;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer-policy a:hover {
+    text-decoration: underline;
 }
