@@ -278,6 +278,22 @@ footer-policy a:hover {
     width: 90%;
 }
 
+.subpage-section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.subpage-section ul li {
+    font-size: 18px;
+    color: #443636;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+
+
 .subpage-section2 {
     background-color: #074354; /* Set the desired background color */
     padding: 40px ;
@@ -299,4 +315,18 @@ footer-policy a:hover {
     text-align: justify;
     text-justify: inter-word;
     width: 90%;
+}
+
+.subpage-section2 ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.subpage-section2 ul li {
+    font-size: 18px;
+    color: #443636;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    margin-bottom: 10px; /* Add spacing between list items */
 }
