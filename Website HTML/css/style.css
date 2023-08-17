@@ -256,7 +256,7 @@ footer-policy a:hover {
 
 /* Style subpages */
 .subpage-section {
-    background-color: #fff; /* Set the desired background color */
+    background-color: #fff; 
     padding: 40px ;
     width: 100%;
 }
@@ -289,13 +289,11 @@ footer-policy a:hover {
     text-align: justify;
     text-justify: inter-word;
     width: 90%;
-    margin-bottom: 10px; /* Add spacing between list items */
+    margin-bottom: 10px; 
 }
 
-
-
 .subpage-section2 {
-    background-color: #074354; /* Set the desired background color */
+    background-color: #074354; 
     padding: 40px ;
     width: 100%;
 }
@@ -328,5 +326,37 @@ footer-policy a:hover {
     text-align: justify;
     text-justify: inter-word;
     width: 90%;
-    margin-bottom: 10px; /* Add spacing between list items */
+    margin-bottom: 10px; 
+}
+
+/* Style other pages */
+.otherpage-background {
+    position: relative;
+    width: 100%;
+    height: 15vh; 
+    background-size: cover;
+    background-color: #cfa793;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.otherpages-title {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.otherpages-title h1 {
+    margin-top: 20px;
+    font-size: 64px;
+    color: #443636;
+    font-weight: 600;
+    transition: 0.5s;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;   
+}
+
+.otherpages-title h1:hover {
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+    text-shadow: -1px -1px 0 transparent, 1px -1px 0 transparent, -1px 1px 0 transparent, 1px 1px 0 transparent;
 }
