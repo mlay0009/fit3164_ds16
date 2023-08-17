@@ -168,6 +168,7 @@
     background-color: #443636;
     color: #cfa793; 
     padding: 20px;
+    bottom: 0;
 }
 
 /* Style the footer description */
@@ -268,6 +269,12 @@ footer-policy a:hover {
     transition: 0.5s;
     border-bottom:1.5px solid #cfa793; 
     padding-bottom:5px;
+}
+
+.subpage-section h2{
+    font-size: 20px;
+    color: #443636;
+    font-weight: 600px;
 }
 
 .subpage-section p{
