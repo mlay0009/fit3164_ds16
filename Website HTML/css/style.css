@@ -336,6 +336,32 @@ footer-policy a:hover {
     margin-bottom: 10px; 
 }
 
+/* Unique list for Consumer tips */
+ch1 {
+    font-size: 24px;
+    color: #cfa793;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    margin-bottom: 10px; 
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+cli {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+    margin-bottom: 10px; 
+}
+
+
 /* Style other pages */
 .otherpage-background {
     position: relative;
