@@ -47,7 +47,7 @@
 .topic {
     position: absolute;
     bottom:15px;
-    left: 40px; 
+    left: 60px; 
     background-color: transparent;
     max-width: 100%;
 }
@@ -132,7 +132,7 @@
 /* Style "Home" section */
 .home-section {
     background-color: #fff; /* Set the desired background color */
-    padding: 40px ;
+    padding: 60px;
     width: 100%;
 }
 
@@ -170,7 +170,7 @@
 .footer {
     background-color: #443636;
     color: #cfa793; 
-    padding: 20px;
+    padding: 60px;
     bottom: 0;
 }
 
@@ -240,7 +240,7 @@ footer-policy a:hover {
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 40px;
+    padding: 60px;
     text-align: left;
 }
 
@@ -261,7 +261,7 @@ footer-policy a:hover {
 /* Style subpages */
 .subpage-section {
     background-color: #fff; 
-    padding: 40px ;
+    padding: 60px ;
     width: 100%;
 }
 
@@ -304,7 +304,7 @@ footer-policy a:hover {
 
 .subpage-section2 {
     background-color: #074354; 
-    padding: 40px ;
+    padding: 60px ;
     width: 100%;
 }
 
