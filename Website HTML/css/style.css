@@ -342,6 +342,7 @@ footer-policy a:hover {
 /* Unique list for Consumer tips */
 ch1 {
     font-size: 24px;
+    font-weight: bold;
     color: #cfa793;
     text-align: justify;
     text-justify: inter-word;
