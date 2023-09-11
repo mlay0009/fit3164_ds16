@@ -23,7 +23,7 @@
     text-align: center;
 }
 .title h1{
-    font-size: 100px;
+    font-size: 120px;
     color: #fff;
     font-weight: 600px;
     transition: 0.5s;
@@ -53,12 +53,12 @@
 }
 
 .topic h1 {
-    font-size: 32px;
+    font-size: 44px;
     color:  #cfa793;
 }
 
 .topic h2 {
-    font-size: 20px;
+    font-size: 24px;
     color: #fff;
 }
 
@@ -90,7 +90,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /* Style navigation menu links */
@@ -134,7 +134,7 @@
 }
 
 .home-section h1{
-    font-size: 30px;
+    font-size: 36px;
     color: #cfa793;
     font-weight: 600px;
     transition: 0.5s;
@@ -144,7 +144,7 @@
 
 
 .home-section p{
-    font-size: 18px;
+    font-size: 24px;
     color: #443636;
     text-align: justify;
     text-justify: inter-word;
@@ -156,7 +156,7 @@
     color: #cfa793;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px; 
+    font-size: 24px; 
 }
 
 .read-more-link i {
@@ -176,7 +176,7 @@
     text-align: left;
     background-color: #443636;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500px;
 }
 
@@ -185,7 +185,7 @@
     color: #cfa793;
     text-decoration: none;
     display: block;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .contact-us i {
@@ -198,9 +198,9 @@
 
 footer-policy {
     background-color: #443636;
-    padding: 10px;
+    padding: 18px;
     color: #cfa793;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* Style the left and right sections */
@@ -215,7 +215,7 @@ footer-policy .right {
 footer-policy a {
     color: #cfa793;
     text-decoration: none;
-    margin-left: 14px;
+    margin-left: 18px;
 }
 
 footer-policy a:hover {
@@ -263,7 +263,7 @@ footer-policy a:hover {
 }
 
 .subpage-section h1{
-    font-size: 30px;
+    font-size: 36px;
     color: #cfa793;
     font-weight: 600px;
     transition: 0.5s;
@@ -272,13 +272,13 @@ footer-policy a:hover {
 }
 
 .subpage-section h2{
-    font-size: 20px;
+    font-size: 24px;
     color: #443636;
     font-weight: 600px;
 }
 
 .subpage-section p{
-    font-size: 18px;
+    font-size: 24px;
     color: #443636;
     text-align: justify;
     text-justify: inter-word;
@@ -291,7 +291,7 @@ footer-policy a:hover {
 }
 
 .subpage-section ul li {
-    font-size: 18px;
+    font-size: 24px;
     color: #443636;
     text-align: justify;
     text-justify: inter-word;
@@ -306,7 +306,7 @@ footer-policy a:hover {
 }
 
 .subpage-section2 h1{
-    font-size: 30px;
+    font-size: 36px;
     color: #cfa793;
     font-weight: 600px;
     transition: 0.5s;
@@ -315,7 +315,7 @@ footer-policy a:hover {
 }
 
 .subpage-section2 p{
-    font-size: 18px;
+    font-size: 24px;
     color: #fff;
     text-align: justify;
     text-justify: inter-word;
@@ -328,7 +328,7 @@ footer-policy a:hover {
 }
 
 .subpage-section2 ul li {
-    font-size: 18px;
+    font-size: 24px;
     color: #443636;
     text-align: justify;
     text-justify: inter-word;
@@ -353,7 +353,7 @@ ul {
 }
 
 cli {
-    font-size: 18px;
+    font-size: 24px;
     color: white;
     text-align: justify;
     text-justify: inter-word;
@@ -380,7 +380,7 @@ cli {
 }
 
 .otherpages-title h1 {
-    margin-top: 20px;
+    margin-top: 24px;
     font-size: 64px;
     color: #443636;
     font-weight: 600;
