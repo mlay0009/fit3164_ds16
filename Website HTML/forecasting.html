@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initital-scale=1.0">
+    <title>CPI Forecasting</title>
+    <script src="js/sidebar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Load the html page style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Background Image and Subsection Title -->
+    <div class="subpage-background" style="background-image: url('images/forecasting.jpg');">
+
+        <div class="subpage-title">
+            <h1>CPI Forecasting</h1>
+        </div>
+    </div>
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="./home.html">Home</a>
+            <a href="./aboutus.html">About Us</a>
+            <a href="./macrooutlook.html">Macro Outlook</a>
+            <a href="./grocerysubcategories.html">Grocery Sub-Categories</a>
+            <a href="./regionalanalysis.html">Regional Analysis</a>
+            <a href="./forecasting.html">CPI Forecasting</a>
+            <a href="./consumertips.html">Consumer Tips</a>
+            <a href="./contactus.html">Contact Us</a>
+        </div>
+    </div>
+    <br>
+    <!-- CPI Forecasting Section  -->
+    <section id="subpage" class="subpage-section">
+        <h1>CPI Forecasting</h1>
+        <p>
+            <br>
+            Welcome to GDC's <b>CPI Forecasting</b> page, where we dive into the fascinating world of consumer price trends in Australia's grocery sector. We aim to provide you with valuable insights into how CPI in general and specifically relating to food & non-alcoholic beverages are evolving over time. With the aim of helping consumers make well-informed decisions, GDC has committed to a rigourous forecasting methodology for Australian CPI movements.
+            <br>
+        </p>
+        <br>
+        <h1>Key Insights</h1>
+        <br>
+        <p>
+            <ul>
+                <li>GDC has utilise the <b>XGBoost</b> methodology to conduct forecasts on Australian Food & Non-Alcoholic Beverages and All Groups CPI data.</li> <br>
+                <li>GDC has eliminated outliers and utilised cross validation techniques to accurately forecast CPI trends. This has enabled the <b>smoothing out external market events</b> which have caused unprecdented surges in  CPI levels.</li> <br>
+                <li><b>Food & Non-Alcoholic Beverages has generally oscillated between -2% to 4%</b> in change from previous quarter for the last 30+ years. <b>GDC has predicted an average quarterly change of 2.97% for the next 10 years.</b></li><br>
+                <li><b>The All Groups CPI has lower movement, oscillating between -1% to 2%</b> each period for the last 30+ years. <b>GDC has predicted an average quarterly change change between 0.62% and 0.69% for the next 10 years.</b></li><br>
+            </ul>
+        </p>
+        <br>
+    </section>
+    <section id="subpage" class="subpage-section2">
+        <h1>Forecasting Methodology</h1>
+        <p>
+            <br>
+            Our approach to forecasting the Consumer Price Index (CPI) relies on a powerful methodology known as <b><span style="color: #cfa793;">XGBoost</span></b>. This method stands out for its exceptional accuracy in predicting complex trends. 
+            <br><br>
+            <b><span style="color: #cfa793;">But what makes XGBoost so useful?</span></b>
+            <br><br>
+            <b><span style="color: #cfa793;">XGBoost</span></b>, or <b><span style="color: #cfa793;">Extreme Gradient Boosting</span></b>, is an ensemble learning algorithm that combines the predictions of multiple models to create a robust and highly accurate forecast. It excels in capturing intricate relationships within data, making it ideal for predicting the CPI.
+            <br><br>    
+            <b><span style="color: #cfa793;">Why XGBoost?</span></b>
+            <br><br>   
+            You might be wondering why we chose <b><span style="color: #cfa793;">XGBoost</span></b>. The answer lies in its ability to analyze vast datasets and uncover hidden patterns. This empowers us to make precise predictions about grocery price movements. With <b><span style="color: #cfa793;">XGBoost</span></b>, we can navigate the complexities of the market, from seasonal fluctuations to supply and demand dynamics.
+            <br>
+        </p>
+        <br>
+    </section>
+
+    <!-- Food & Non-Alcoholic Beverages Section  -->
+    <section id="subpage" class="subpage-section">
+        <h1>CPI Movement for Food & Non-Alcoholic Beverages</h1>
+        <p>
+            <br>
+            This visualization looks closer at <b>Modelled CPI Movement for Food & Non-Alcoholic Beverages</b>. This valuable tool is designed to assist consumers through gaining insight into how food inflation has been moving over time. Furthermore, GDC has committed to providing useful analysis that only includes data <b>AFTER</b> the ABS revised their CPI calculation methodology in the early 1990's.
+            <br>
+        </p>
+        <br><br>
+
+        <!-- Food & Non Alcoholic Beverages Visualisation  -->
+        <div class='pythonvis' id="content1"></div>
+        <script>
+            $(document).ready(function () {
+                $("#content1").load("FNAB1.html");
+            });
+        </script>
+    
+    <br>
+    <h1>Predicted CPI Movement for Food & Non-Alcoholic Beverages</h1>
+    <p>
+        <br>
+        This visualization looks closer at <b>Future Predictions in CPI Movement for Food & Non-Alcoholic Beverages</b>. GDC's forecasts extend beyond the present, allowing us to peer into the future. We have <b>projected CPI trends for the next 10 years</b>, providing you with a glimpse of what lies ahead in the grocery sector. These insights are invaluable for long-term planning and strategy development.
+        <br>
+    </p>
+    <br><br>
+
+    <!-- Food & Non Alcoholic Beverages Visualisation  -->
+        <div class='pythonvis' id="content2"></div>
+        <script>
+            $(document).ready(function () {
+                $("#content2").load("FNAB2.html");
+            });
+        </script>
+    </section>
+
+    <!-- All Group CPI  Section  -->
+    <section id="subpage" class="subpage-section2">
+        <h1>All Groups CPI Movement in Australia</h1>
+        <p>
+            <br>
+            Adopting a more broader lens, this visualization looks closer at <b><span style="color: #cfa793;">Modelled CPI Movement for ALL Groups in Australia's CPI Index</span></b>. This allows consumers to make more informed budgeting decisions when it comes to considering the macro-economic state of Australia, not just grocery items. Consumers now have the ability to peer into Australia's annual CPI changes to better understand the value of <b><span style="color: #cfa793;">YOUR</span></b> money.
+            <br>
+        </p>
+        <br><br>
+
+        <!-- All Group CPI Visualisation  -->
+        <div class='pythonvis' id="content3"></div>
+        <script>
+            $(document).ready(function () {
+                $("#content3").load("AGCPI1.html");
+            });
+        </script>
+
+        <br>
+        <h1>Predicted Movement for All Groups CPI</h1>
+        <p>
+            <br>
+            In addition to our macro-economic forecasting for CPI, GDC has also forecasted <b><span style="color: #cfa793;">Future Predictions in Australia's All Group's CPI Movement</span></b>. These predictions are in-line with cyclical changes in CPI from previous periods, following a wave-like pattern for the forseeable future.
+            <br>
+        </p>
+        <br><br>
+
+        <!-- All Group CPI Visualisation  -->
+            <div class='pythonvis' id="content4"></div>
+            <script>
+                $(document).ready(function () {
+                    $("#content4").load("AGCPI2.html");
+                });
+            </script>
+        <br>
+    </section>
+    <!-- Reference Period  -->
+    <section id="subpage" class="subpage-section">
+        <p><b>Reference period for all visualisations:</b> June Quarter 2023</p>
+    </section>
+
+    <!-- Footer  -->
+    <section id="gdc-footer" class="footer">
+        <a href="./home.html"><h1><u>GDC</u></h1></a>
+        <a href="./contactus.html" class="contact-us">
+            <i class="fa-regular fa-envelope fa-1x envelope-regular"></i>
+            Contact Us
+        </a>
+        <footer-policy>
+            <div class="left">
+                <span><i>© GDC 2023</i></span>
+            </div>
+            <div class="right">
+                <span><a href="./privacypolicy.html">Privacy Policy</a></span>
+                <span><a href="./termsofuse.html">Terms of Use</a></span>
+            </div>
+        </footer-policy>
+    </section>
+</body>
+
+</html>
+
