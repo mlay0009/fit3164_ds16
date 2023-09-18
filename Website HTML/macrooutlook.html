@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Load the html page style sheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fade in -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -41,7 +43,7 @@
     </div>
 
     <!-- Macro Outlook Section  -->
-    <section id="subpage" class="subpage-section">
+    <section id="subpage" class="subpage-section" data-aos="fade-up">
         <h1>Macro Outlook</h1>
         <p> 
             <br>
@@ -67,7 +69,7 @@
         </p>  
         <br>
         <!-- Macro Visualisation1  -->
-        <div class='tableauPlaceholder' id='viz1694696510760' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1694696510760' style='position: relative' data-aos="fade-up">
             <noscript>
                 <a href='#'>
                     <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Ma/MacroVisualisation1/Dashboard1/1_rss.png' style='border: none' />
@@ -114,7 +116,7 @@
     </section>
     <br>
     <!-- Food Inflation Section  -->
-    <section id="subpage" class="subpage-section2">
+    <section id="subpage" class="subpage-section2" data-aos="fade-up">
         <h1>Australian Food Inflation</h1>
         <p> 
             <br>
@@ -170,7 +172,7 @@
     </section>
 
     <!-- Reference Period  -->
-    <section id="subpage" class="subpage-section">
+    <section id="subpage" class="subpage-section" data-aos="fade-up">
         <p><b>Reference period for all visualisations:</b> June Quarter 2023</p>
     </section>
     
@@ -190,5 +192,12 @@
             </div>
         </footer-policy>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
 </body>
 </html>
