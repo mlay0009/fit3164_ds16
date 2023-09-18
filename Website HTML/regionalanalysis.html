@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Load the html page style sheet -->
     <link rel="stylesheet" href="css/style.css">
+     <!-- Fade in -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -41,7 +43,7 @@
     </div>
 
     <!-- Regional Analysis Section  -->
-    <section id="subpage" class="subpage-section">
+    <section id="subpage" class="subpage-section" data-aos="fade-up">
         <h1>Regional Analysis</h1>
         <p> 
             <br>
@@ -68,7 +70,7 @@
         </p>  
         <br>
         <!-- F&NAB Visualisation  -->
-        <div class='tableauPlaceholder' id='viz1694704229532' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1694704229532' style='position: relative' data-aos="fade-up">
             <noscript>
             <a href='#'>
                 <img alt='Australia' src='https://public.tableau.com/static/images/Re/RegionalAnalysisAustralia1/Australia_1/1_rss.png' style='border: none' />
@@ -111,7 +113,7 @@
     </section>
 
     <!-- Australian Grocery Prices Section  -->
-    <section id="subpage" class="subpage-section2">
+    <section id="subpage" class="subpage-section2" data-aos="fade-up">
         <h1>Australian Grocery Prices in Main Cities</h1>
         <p> 
             <br>
@@ -120,7 +122,7 @@
         </p>  
         <br><br>
         <!-- Australian Grocery Prices Visualisation  -->
-        <div class='tableauPlaceholder' id='viz1694707305331' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1694707305331' style='position: relative' data-aos="fade-up">
             <noscript>
               <a href='#'>
                 <img alt='City Comparison' src='https://public.tableau.com/static/images/Re/RegionalAnalysis1_16947072901930/CityComparison/1_rss.png' style='border: none' />
@@ -163,7 +165,7 @@
     </section>
 
     <!-- Regional Grocery Price Comparison Section  -->
-    <section id="subpage" class="subpage-section">
+    <section id="subpage" class="subpage-section" data-aos="fade-up">
         <h1>Grocery Price Comparisons across Regions in Australia</h1>
         <p> 
             <br>
@@ -172,7 +174,7 @@
         </p>  
         <br>
         <!-- Regional Grocery Price Comparison Visualisation  -->
-        <div class='tableauPlaceholder' id='viz1694708127916' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1694708127916' style='position: relative' data-aos="fade-up">
             <noscript>
               <a href='#'>
                 <img alt='Dashboard 1' src='https://public.tableau.com/static/images/Re/RegionMap1/Dashboard1/1_rss.png' style='border: none' />
@@ -232,5 +234,12 @@
             </div>
         </footer-policy>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
 </body>
 </html>

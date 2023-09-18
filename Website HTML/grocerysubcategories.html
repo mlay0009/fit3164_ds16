@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Load the html page style sheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fade in -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -41,7 +43,7 @@
     </div>
     <br>
     <!-- Grocery Sub-Categories Section  -->
-    <section id="subpage" class="subpage-section">
+    <section id="subpage" class="subpage-section" data-aos="fade-up">
         <h1>Grocery Sub-Categories</h1>
         <p> 
             <br>
@@ -68,7 +70,7 @@
         </p>  
         <br><br>
         <!-- Grocery Sub-Categories Visualisation  -->
-        <div class='tableauPlaceholder' id='viz1694699862423' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1694699862423' style='position: relative' data-aos="fade-up">
             <noscript>
                 <a href='#'>
                     <img alt='Sub-Category Quarterly Movement' src='https://public.tableau.com/static/images/Da/DataSciProj2/Sub-CategoryQuarterlyMovement/1_rss.png' style='border: none' />
@@ -114,7 +116,7 @@
     </section>
 
     <!-- Grocery Item Section  -->
-    <section id="subpage" class="subpage-section2">
+    <section id="subpage" class="subpage-section2" data-aos="fade-up">
         <h1>Grocery Price Movements</h1>
         <p> 
             <br>
@@ -124,7 +126,7 @@
         <br><br>
 
          <!-- Grocery Item Visualisation  -->
-        <div class='tableauPlaceholder' id='viz1694700499777' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1694700499777' style='position: relative' data-aos="fade-up">
             <noscript>
                 <a href='#'>
                     <img alt='Quarterly Grocery Item Price Movements' 
@@ -171,7 +173,7 @@
     </section>
     <br>
     <!-- Annual Price Movements Section  -->
-    <section id="subpage" class="subpage-section">
+    <section id="subpage" class="subpage-section" data-aos="fade-up">
         <h1>Annual food inflation softens but remains high</h1>
         <p> 
             <br>
@@ -194,7 +196,7 @@
         </p>  
         <br><br>
         <!-- Annual Price Movements Visualisation  -->
-        <div class='tableauPlaceholder' id='viz1693972967322' style='position: relative'>
+        <div class='tableauPlaceholder' id='viz1693972967322' style='position: relative' data-aos="fade-up">
             <noscript>
                 <a href='#'>
                     <img alt='Q2 Annual Change' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DataSciProj_16939545720490&#47;Q2AnnualChange&#47;1_rss.png' style='border: none' />
@@ -237,7 +239,7 @@
     </section>
     <br>
     <!-- Quarterly Price Movement Section  -->
-    <section id="subpage" class="subpage-section2">
+    <section id="subpage" class="subpage-section2" data-aos="fade-up">
         <h1>Quarterly food inflation has followed in line with annual movements</h1>
         <p> 
             <br>
@@ -257,7 +259,7 @@
         <br><br>
 
          <!-- Quarterly Price Movement Visualisation  -->
-         <div class='tableauPlaceholder' id='viz1693973162648' style='position: relative'>
+         <div class='tableauPlaceholder' id='viz1693973162648' style='position: relative' data-aos="fade-up">
             <noscript>
                 <a href='#'>
                     <img alt='Q2 Quarterly Change' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;DataSciProj_16939545720490&#47;Q2QuarterlyChange&#47;1_rss.png' style='border: none' />
@@ -322,5 +324,12 @@
             </div>
         </footer-policy>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
 </body>
 </html>

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Load the html page style sheet -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fade in -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -42,7 +44,7 @@
 
     <!-- About Us Section  -->
 
-    <section id="subpage" class="subpage-section">
+    <section id="subpage" class="subpage-section" data-aos="fade-up">
             <h1>About Us</h1>
             <p> 
                 <br>
@@ -51,7 +53,7 @@
             </p>  
     </section>
 
-    <section id="subpage" class="subpage-section2">
+    <section id="subpage" class="subpage-section2" data-aos="fade-up">
         <h1>Our Mission</h1>
         <p> 
             <br>
@@ -60,7 +62,7 @@
         </p>  
     </section>
 
-    <section id="subpage" class="subpage-section">
+    <section id="subpage" class="subpage-section" data-aos="fade-up">
         <h1>Our Goals</h1>
         <br>
         <p>
@@ -72,7 +74,7 @@
         </p>
     </section>
 
-    <section id="subpage" class="subpage-section2">
+    <section id="subpage" class="subpage-section2" data-aos="fade-up">
         <h1>Methodology</h1>
         <p> 
             <br>
@@ -101,5 +103,12 @@
             </div>
         </footer-policy>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+          duration: 1000,
+          once: true,
+        });
+      </script>
 </body>
 </html>
