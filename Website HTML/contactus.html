@@ -43,7 +43,7 @@
     <!-- Contact Us Section -->
     <div class="contact-section">
         <div class="container-wrapper">
-            <form class="contact-form">
+            <form action = "https://formsubmit.co/gdcteamcontact@gmail.com" class="contact-form" method = "POST">
                 <div class="form-container">
                     <div class="form-header">
                         <h2 class="section-title">
@@ -55,31 +55,31 @@
                     </div>
                     <div class="input-section">
                         <div class="input-row">
-                            <label class="input-label">
+                            <label for = "FirstName" class="input-label">
                                 FIRST NAME
                             </label>
-                            <input class="text-input" name="FirstName" placeholder="Please enter first name...">
+                            <input class="text-input" id = "FirstName" name="FirstName" placeholder="Please enter first name..." required>
                         </div>
                         <div class="input-row">
-                            <label class="input-label">
+                            <label for = "Email" class="input-label">
                                 EMAIL
                             </label>
-                            <input class="text-input" name="Email" placeholder="Please enter email...">
+                            <input type = "email" class="text-input" id = "Email" name="Email" placeholder="Please enter email..." required>
                         </div>
                         <div class="input-row">
-                            <label class="input-label">
+                            <label for = "PhoneNumber" class="input-label">
                                 PHONE NUMBER
                             </label>
-                            <input class="text-input" name="PhoneNumber" placeholder="Please enter phone number...">
+                            <input class="text-input" id = "PhoneNumber" name="PhoneNumber" placeholder="Please enter phone number..." required>
                         </div>
                         <div class="input-row">
-                            <label class="input-label">
+                            <label for = "message" class="input-label">
                                 WHAT QUESTIONS DO YOU HAVE?
                             </label>
-                            <textarea class="text-area" placeholder="Please enter query..."></textarea>
+                            <textarea class="text-area" id = "message" name = "message" rows = "4" placeholder="Please enter query..." required></textarea>
                         </div>
                     </div>
-                    <button class="submit-button">
+                    <button type = "submit" class="submit-button">
                         Submit
                     </button>
                 </div>
